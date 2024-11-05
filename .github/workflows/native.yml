@@ -1,14 +1,6 @@
 name: native
 
-on:
-  push:
-    paths-ignore:
-    - 'img/**'
-    - 'doc/**'
-    - 'src/**'
-    - '*.md'
-    - '*.txt'
-  pull_request:
+on: workflow_dispatch
 
 defaults:
   run:
